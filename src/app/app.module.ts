@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AboutUsComponent } from './shared/about-us/about-us.component';
-import { SettingComponent } from './shared/setting/setting.component';
+import { SettingsComponent } from './shared/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { SettingComponent } from './shared/setting/setting.component';
     HeaderComponent,
     FooterComponent,
     AboutUsComponent,
-    SettingComponent
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './shared/about-us/about-us.component';
-import { SettingComponent } from './shared/setting/setting.component';
+import { SettingsComponent } from './shared/settings/settings.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/', pathMatch: 'full'},
   {path: 'aboutUs', component: AboutUsComponent},
-  {path: '**', redirectTo: '/', pathMatch: 'full'},
-  {path: 'settings', component: SettingComponent},
+  {path: 'settings', component: SettingsComponent},
+  {path: '**', redirectTo: '/', pathMatch: 'full'}
+
+  
 ];
 
 @NgModule({
